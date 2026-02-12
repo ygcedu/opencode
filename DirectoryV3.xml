@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<trees>
+  <!-- 核心代码包 -->
+  <tree path="/packages" title="核心代码包 - 包含所有子项目">
+    <tree path="/packages/opencode" title="CLI 工具核心 - AI 代理系统"/>
+    <tree path="/packages/app" title="Web UI - SolidJS + OpenTUI 前端"/>
+    <tree path="/packages/web" title="官网文档 - Astro 网站"/>
+    <tree path="/packages/desktop" title="桌面应用 - Tauri 应用"/>
+    <tree path="/packages/ui" title="UI 组件库"/>
+    <tree path="/packages/util" title="工具函数库"/>
+    <tree path="/packages/sdk" title="JavaScript SDK"/>
+    <tree path="/packages/plugin" title="插件系统"/>
+    <tree path="/packages/script" title="脚本工具包"/>
+    <tree path="/packages/function" title="云函数服务"/>
+    <tree path="/packages/slack" title="Slack 集成"/>
+    <tree path="/packages/enterprise" title="企业版功能"/>
+    <tree path="/packages/console" title="控制台系统 - 后端管理服务">
+      <tree path="/packages/console/core" title="控制台核心服务"/>
+      <tree path="/packages/console/app" title="控制台 Web UI"/>
+      <tree path="/packages/console/function" title="控制台云函数"/>
+      <tree path="/packages/console/mail" title="邮件服务"/>
+      <tree path="/packages/console/resource" title="资源管理"/>
+    </tree>
+    
+    <!-- 支持目录（无 package.json） -->
+    <tree path="/packages/containers" title="CI 容器镜像 - GitHub Actions 预构建镜像"/>
+    <tree path="/packages/docs" title="文档内容 - Mintlify 文档源码"/>
+    <tree path="/packages/extensions" title="编辑器扩展 - 如 Zed 扩展"/>
+    <tree path="/packages/identity" title="品牌资源 - Logo 和图标"/>
+  </tree>
+  
+  <!-- 开发和部署工具 -->
+  <tree path="/script" title="构建和部署脚本"/>
+  <tree path="/infra" title="基础设施配置 - 云部署和 CI/CD"/>
+  <tree path="/specs" title="API 规范和接口定义"/>
+  
+  <!-- 项目支持文件 -->
+  <tree path="/github" title="GitHub 工作流和自动化"/>
+  <tree path="/sdks" title="SDK 相关配置和工具"/>
+  <tree path="/themes" title="UI 主题配置"/>
+  <tree path="/patches" title="依赖包补丁文件"/>
+  <tree path="/nix" title="Nix 包管理配置"/>
+</trees>
